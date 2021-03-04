@@ -1,32 +1,27 @@
-# Prerequisites
-*.d
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+##########################
+# Jetbrains Ignore files #
+##########################
+.idea/
 
-# Precompiled Headers
-*.gch
-*.pch
+#######################
+# Python Ignore files #
+#######################
+__pycache__/
+.ipynb_checkpoints/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#######################
+# PPT                 #
+#######################
+ppt/
+*.pdf
